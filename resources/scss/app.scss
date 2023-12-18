@@ -27,3 +27,20 @@ footer{
      background-size: cover;
      background-repeat: no-repeat;
 }
+
+.Myjumbotron{
+    background-image: url('../img/jumbotron.jpg');
+    height:450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.card{
+    background-color: #222;
+    .myimgcard{
+        width: 200px;
+        height: 200px;
+        overflow: hidden;
+    }
+}
