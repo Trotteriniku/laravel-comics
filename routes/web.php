@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('home');
+    $smallicons = config('smallicondb.smallicons');
+    $comics = config('comicsdb.comics');
+    return view('home', compact('comics', 'smallicons'));
 })->name('home');

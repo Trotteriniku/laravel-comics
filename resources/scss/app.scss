@@ -15,13 +15,15 @@ header{
     font-weight: 700;
     }
 
-    
+
     img{
       max-width: 90px;
     }
-
-
-    
 }
 
- 
+footer{
+
+     background-image: url('../img/footer-bg.jpg');
+     background-size: cover;
+     background-repeat: no-repeat;
+}
