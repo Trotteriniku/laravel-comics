@@ -10,6 +10,18 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1{
-    color: $text-color;
+header{
+    li{
+    font-weight: 700;
+    }
+
+    
+    img{
+      max-width: 90px;
+    }
+
+
+    
 }
+
+ 
