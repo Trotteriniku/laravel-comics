@@ -2,7 +2,7 @@
     <div class="container position-relative  py-4 px-0 text-center">
         <div class="row  row-cols-md-6 row-cols-sm-3 ">
             @foreach ($comics as $id => $item)
-                <a href="{{ route('comics.show', $id) }}">
+                <a href="{{ route('comics.show', $id) }}" class=" text-decoration-none ">
                     <div class="card rounded-0 p-0 border-0 my-3  " style="max-width: 250px;">
 
                         <div class="myimgcard">

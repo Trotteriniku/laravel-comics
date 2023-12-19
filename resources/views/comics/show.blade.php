@@ -9,7 +9,7 @@
         <div class="container d-flex gap-5 mb-5 ">
             <div class=" w-75 ">
                 <img src="{{ $comics[$id]['thumb'] }}" alt="" class=" position-absolute "
-                    style="width: 230px; top:35%; left:16%;">
+                    style="width: 230px;  top:35%; left:16%;">
 
                 <h4 class=" text-uppercase ">{{ $comics[$id]['title'] }}</h4>
                 <div class="px-4 py-3 w-100 mb-3" style="background-color:green; border: groove  green; ">
