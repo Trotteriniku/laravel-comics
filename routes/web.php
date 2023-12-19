@@ -18,3 +18,15 @@ Route::get('/', function () {
     $comics = config('comicsdb.comics');
     return view('home', compact('comics', 'smallicons'));
 })->name('home');
+
+
+Route::get('/comicshow/{id}', function ($id) {
+
+    $comics = config('comicsdb.comics');
+    $smallicons = config('smallicondb.smallicons');
+    return view('comics.show')
+        ->with('smallicons', $smallicons)
+        ->with('comics', $comics)
+        ->with('id', $id);
+})->name('comics.show');
+

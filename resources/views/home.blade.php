@@ -6,7 +6,7 @@
     <main>
         <div class="Myjumbotron"></div>
         @include('comics.index')
-
+        @include('partials.footerblu')
     </main>
 
 @endsection('content')
