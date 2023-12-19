@@ -110,6 +110,47 @@ return [
             "sale_date" => "2019-04-10",
             "type" => "graphic novel",
         ]
+    ],
+    'navitems' => [
+        [
+            'name' => 'characters'
+        ],
+
+        [
+            'name' => 'comics'
+        ],
+
+        [
+            'name' => 'movies'
+        ],
+
+        [
+            'name' => 'tv'
+        ],
+
+        [
+            'name' => 'games'
+        ],
+
+        [
+            'name' => 'collectibles'
+        ],
+
+        [
+            'name' => 'videos'
+        ],
+
+        [
+            'name' => 'fans'
+        ],
+
+        [
+            'name' => 'news'
+        ],
+
+        [
+            'name' => 'shops'
+        ],
     ]
 ];
 
