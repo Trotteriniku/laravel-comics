@@ -4,7 +4,8 @@
 
 @section('content')
     <main>
-
+        <div class="Myjumbotron"></div>
+        @include('partials.card')
 
     </main>
 
