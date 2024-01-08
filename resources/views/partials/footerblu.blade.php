@@ -1,3 +1,8 @@
+@php
+    $smallicons = config('smallicondb.smallicons');
+    dd(config('smallicondb'));
+@endphp
+
 <div class="bg-primary">
     <div class=" container py-4 ">
         <div class=" row flex-nowrap ">

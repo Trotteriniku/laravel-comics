@@ -14,13 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    // $smallicons = config('smallicondb.smallicons');
-    // $comics = config('comicsdb.comics');
-    // return view('home', compact('comics', 'smallicons'));
-    return to_route('comics.index');
-})->name('home');
+// Route::get('/', function () {
+//     $smallicons = config('smallicondb.smallicons');
+//     return view('home', compact('smallicons'));
+//     // $comics = config('comicsdb.comics');
+//     // return view('home', compact('comics', 'smallicons'));
 
+
+// })->name('home');
+
+Route::get('/', [ComicController::class, 'index'])->name('home');
 
 // Route::get('/comicshow/{id}', function ($id) {
 

@@ -1,6 +1,6 @@
 <div style="background-color: #222222">
     <div class="container position-relative  py-4 px-0 text-center">
-        <div class="row  row-cols-md-6 row-cols-sm-3 ">
+        <div class=" row row-cols--md-6 row-cols-sm-3    ">
             @foreach ($comics as $comic)
                 <a href=" {{ route('comics.show', $comic->id) }}" class=" text-decoration-none ">
                     <div class="card rounded-0 p-0 border-0 my-3  " style="max-width: 250px;">
