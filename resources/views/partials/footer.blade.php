@@ -1,3 +1,7 @@
+@php
+    $smallicons = config('smallicondb.smallicons');
+@endphp
+
 <footer style="background-image: /resources/img/footer-bg.jpg";>
 
     <div class=" overflow-hidden">

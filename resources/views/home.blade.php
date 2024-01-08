@@ -1,4 +1,4 @@
-@extends('layouts.app')
+{{-- @extends('layouts.app')
 
 @section('title, home')
 
@@ -9,4 +9,4 @@
         @include('partials.footerblu')
     </main>
 
-@endsection('content')
+@endsection('content') --}}

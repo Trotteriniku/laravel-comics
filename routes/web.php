@@ -15,8 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 // Route::get('/', function () {
-//     $smallicons = config('smallicondb.smallicons');
-//     return view('home', compact('smallicons'));
+//     return Redirect::route('comics.index');
+//     // $smallicons = config('smallicondb.smallicons');
+//     // return view('home', compact('smallicons'));
 //     // $comics = config('comicsdb.comics');
 //     // return view('home', compact('comics', 'smallicons'));
 
