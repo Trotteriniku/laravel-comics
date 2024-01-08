@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ComicController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,19 +15,22 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    $smallicons = config('smallicondb.smallicons');
-    $comics = config('comicsdb.comics');
-    return view('home', compact('comics', 'smallicons'));
+    // $smallicons = config('smallicondb.smallicons');
+    // $comics = config('comicsdb.comics');
+    // return view('home', compact('comics', 'smallicons'));
+    return to_route('comics.index');
 })->name('home');
 
 
-Route::get('/comicshow/{id}', function ($id) {
+// Route::get('/comicshow/{id}', function ($id) {
 
-    $comics = config('comicsdb.comics');
-    $smallicons = config('smallicondb.smallicons');
-    return view('comics.show')
-        ->with('smallicons', $smallicons)
-        ->with('comics', $comics)
-        ->with('id', $id);
-})->name('comics.show');
+//     $comics = config('comicsdb.comics');
+//     $smallicons = config('smallicondb.smallicons');
+//     return view('comics.show')
+//         ->with('smallicons', $smallicons)
+//         ->with('comics', $comics)
+//         ->with('id', $id);
+// })->name('comics.show');
+
+Route::resource('comics', ComicController::class);
 

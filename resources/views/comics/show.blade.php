@@ -8,15 +8,14 @@
         <div class="bg-primary p-5 position-relative mb-5"></div>
         <div class="container d-flex gap-5 mb-5 ">
             <div class=" w-75 ">
-                <img src="{{ $comics[$id]['thumb'] }}" alt="" class=" position-absolute "
+                <img src="{{ $comic->thumb }}" alt="" class=" position-absolute "
                     style="width: 230px;  top:35%; left:16%;">
 
-                <h4 class=" text-uppercase ">{{ $comics[$id]['title'] }}</h4>
+                <h4 class=" text-uppercase ">{{ $comic->title }}</h4>
                 <div class="px-4 py-3 w-100 mb-3" style="background-color:green; border: groove  green; ">
-                    <span style="color: lightgreen; ">U.S. price:<span
-                            class="text-light">{{ $comics[$id]['price'] }}</span></span>
+                    <span style="color: lightgreen; ">U.S. price:<span class="text-light">{{ $comic->price }}</span></span>
                 </div>
-                <p>{{ $comics[$id]['description'] }}</p>
+                <p>{{ $comic->description }}</p>
             </div>
 
 

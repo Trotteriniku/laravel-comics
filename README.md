@@ -82,3 +82,5 @@ php artisan key:generate
 
 npm install
 ```
+
+-   php artisan make:model Comic -rcms per creare tutto
